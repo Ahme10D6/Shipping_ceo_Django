@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    overflow:auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    width: 100%;
+    background: linear-gradient(to bottom , rgba(186,163,83,0.5),rgba(44,43,43,0.5)),url(../imgs/8.jpg) center /cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+.logoimg{
+    width: 200px;
+    height: 70px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.active{
+    color: #fff;
+}
+nav ul li:hover{
+color: #fff;
+}
+.btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    background: linear-gradient(to bottom , rgba(186,163,83,0.5),rgba(44,43,43,0.4));
+    cursor: pointer;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+.content{
+    width: 1200px;
+    height: 100vh;
+}
+.content h3{
+    margin: auto;
+    margin-left: 340px;
+    font-size: 40px;
+    padding-top: 100px;
+    font-weight: 400;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: bold;   
+}
+.content h1:hover{
+    font-size: 23px;
+    font-weight: bold;
+    color:rgba(44,43,43,0.5)   
+}
+.divs{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.d1 {
+    display: inline-block;
+    padding-left: 2px;
+    border-right: 0.5px solid #000;
+    background-color: #f1f1f1;
+    border-radius: 8px 0px 0px 8px;
+    width: 30%;
+    height: 173px;
+}
+.d2
+{
+    padding-left: 2px;
+    background-color: #f1f1f1;
+    border-left: 1px solid #000;
+    border-right: 0.5px solid #000;
+    border-radius: 0px 0px 0px 0px;
+    width: 30%;
+    height: 173px;
+    display: inline-block;
+    margin-left: -4px;
+}
+.d3
+{
+    height: 173px;
+    padding-left: 2px;
+    background-color: #f1f1f1;
+    border-left: 1px solid #000;
+    border-radius: 0px 8px 8px 0px;
+    width: 30%;
+    display: inline-block;
+    margin-left: -4px;
+}
+.d1 img ,.d2 img ,.d3 img{
+    margin-left: 120px;
+    width: 70px;
+    padding-top: 20px;
+}
+.d1 h1 ,.d2 h1 ,.d3 h1{
+    margin: auto;
+}
+.d1 .btn ,.d2 .btn ,.d3 .btn{
+    margin-left: 35px;
+}
+.btn2{
+    background: transparent;
+    border: 1px solid rgb(44,43,43);
+    border-radius: 8px;
+    color:#000;
+    margin-left: 10px;
+}
+.btn2:hover{
+    background: linear-gradient(to bottom , rgb(186,163,83),rgb(44,43,43));
+    color: #fff;   
+}
+.search-container{
+    width: 600px;
+    margin: 50px auto;
+}
+.search-container form {
+    position: relative;
+}
+
+input[type="text"] {
+    display: block;
+    width: calc(100% - 24px);  
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px 0px 0px 5px;
+}
+.search-container form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #000;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.search-container form button:hover{
+    background: rgb(43, 43, 43);
+    color: #f1f1f1;
+    width: 120px;
+}

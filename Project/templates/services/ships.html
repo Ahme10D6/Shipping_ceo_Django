@@ -1,0 +1,11 @@
+{%  extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% for x in ships %}
+    <h1>{{x.Shipping_id}} hi</h1>
+    <h2>{{x.Shipping_name}}</h2>
+    <h2>{{x.Shipping_price}}</h2>
+    <h2>{{x.Shipping_details}}</h2>
+    <h2>{{x.Shipping_address}}</h2>
+{% endfor %} 
+{% endblock %}
